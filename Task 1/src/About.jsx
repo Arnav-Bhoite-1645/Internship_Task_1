@@ -929,7 +929,7 @@ const App = () => {
             <p>© 2024 SparkFlow Technologies. All rights reserved.</p>
             <div style={{display:'flex', gap:'2rem'}}>
               <span>Privacy</span>
-              <span>Terms</span>
+              <span>Terms & Conditions</span>
             </div>
           </div>
         </div>
