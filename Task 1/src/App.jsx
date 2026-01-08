@@ -14,6 +14,7 @@ import {
   MousePointer2
 } from 'lucide-react';
 import About from './About.jsx';
+import Pricing from './components/Pricing.jsx';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -630,6 +631,9 @@ const App = () => {
           </div>
         </div>
       </section>
+
+      {/* Pricing Section */}
+      <Pricing />
 
       {/* Testimonial Section */}
       <section className="testimonial-section">
